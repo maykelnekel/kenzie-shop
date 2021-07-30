@@ -1,9 +1,26 @@
-import store from "../../store";
-import { kenzieShopApi } from "../../services";
+import { useSelector } from "react-redux";
+import Button from "../../components/button";
+import Card from "../../components/card";
 
 const Products = () => {
-  console.log(kenzieShopApi);
-  console.log("products page", store);
-  return <div></div>;
+  const { products } = useSelector((state) => state);
+  return (
+    <div>
+      {products.map((product) => (
+        <div key={product.id}>
+          <Card
+            name={product.name}
+            image={product.image}
+            description={product.description}
+            price={product.price}
+          />
+          <Button
+            onclick={() => console.log(product)}
+            content="Adicionar ao carrinho"
+          />
+        </div>
+      ))}
+    </div>
+  );
 };
 export default Products;

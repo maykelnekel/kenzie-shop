@@ -1,7 +1,7 @@
 import { ADD_PRODUCTS } from "./actionTypes";
+import { kenzieShopProducts } from "../../../services";
 
-const reducerProducts = (state = [], action) => {
-  console.log("reducer", state);
+const reducerProducts = (state = kenzieShopProducts, action) => {
   switch (action.type) {
     case ADD_PRODUCTS:
       const { products } = action;

@@ -1,7 +1,7 @@
 import { ADD_PRODUCTS } from "./actionTypes";
 
-const addProducts = (product) => ({
+const addProducts = (products) => ({
   type: ADD_PRODUCTS,
-  product,
+  products: products,
 });
 export default addProducts;
