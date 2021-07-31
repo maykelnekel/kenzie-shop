@@ -1,9 +1,15 @@
-import Products from "./pages/products";
+import CartPage from "./pages/cartPage";
+import Home from "./pages/home";
 
 function App() {
   return (
     <div>
-      <Products />
+      <div>
+        <Home />
+      </div>
+      <div>
+        <CartPage />
+      </div>
     </div>
   );
 }

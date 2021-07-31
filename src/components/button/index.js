@@ -1,7 +1,7 @@
-const Button = ({ content, onclick, type = "" }) => {
+const Button = ({ content, onClick, type = "" }) => {
   return (
     <div>
-      <button type={type} onClick={() => onclick()}>
+      <button type={type} onClick={() => onClick()}>
         {content}
       </button>
     </div>
