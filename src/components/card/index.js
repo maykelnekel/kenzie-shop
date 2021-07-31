@@ -7,9 +7,9 @@ const Card = ({ product, inCart = false }) => {
   const { name, image, description, price, id } = product;
   const dispatch = useDispatch();
   return (
-    <div>
+    <div style={{ width: "150px" }}>
       <h3>{name}</h3>
-      <img src={image} alt={name}></img>
+      <img style={{ width: "100px" }} src={image} alt={name}></img>
       <p>{description}</p>
       <h4>{price}</h4>
       {inCart ? (
