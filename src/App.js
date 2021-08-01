@@ -1,16 +1,11 @@
-import CartPage from "./pages/cartPage";
+import { Grid } from "@material-ui/core";
 import Home from "./pages/home";
 
 function App() {
   return (
-    <div style={{ display: "flex" }}>
-      <div>
-        <Home />
-      </div>
-      <div>
-        <CartPage />
-      </div>
-    </div>
+    <Grid>
+      <Home />
+    </Grid>
   );
 }
 

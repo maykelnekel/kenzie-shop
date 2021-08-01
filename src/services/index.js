@@ -27,7 +27,7 @@ export const kenzieShopProducts = [
   },
   {
     id: 45,
-    title: 'iPhone 11 Apple (64GB) Branco Tela 6,1" 4G Câmera 12MP iOS',
+    title: "iPhone 11 Apple (64GB) Branco",
     description:
       "Grave vídeos 4K, faça belos retratos e capture paisagens inteiras com o novo sistema de câmera dupla.",
     price: 3899.99,
@@ -36,8 +36,7 @@ export const kenzieShopProducts = [
   },
   {
     id: 46,
-    title:
-      "Smartphone Samsung Galaxy M31 128GB 4G Wi-Fi Tela 6.4'' Dual Chip 6GB RAM Câmera Quádrupla + Selfie 32MP - Preto",
+    title: "Smartphone Samsung Galaxy M31 128GB - Preto",
     description:
       "Oferece o display Infinito de 6.4 polegadas do Galaxy M31 permite que você veja muito mais do que ama.",
     price: 1899.99,
@@ -46,8 +45,7 @@ export const kenzieShopProducts = [
   },
   {
     id: 47,
-    title:
-      "Smartphone Samsung Galaxy A51 128GB 4G Wi-Fi Tela 6.5'' Dual Chip 4GB RAM Câmera Quádrupla + Selfie 32MP - Cinza",
+    title: "Smartphone Samsung Galaxy A51 128GB - Cinza",
     description:
       "As funcionalidades do Smartphone Samsung Galaxy A51 estão mais avançadas que nunca!",
     price: 1999.99,
@@ -56,8 +54,7 @@ export const kenzieShopProducts = [
   },
   {
     id: 48,
-    title:
-      "Smartphone Samsung Galaxy S20 Fe 128GB 4G Wi-Fi Tela 6.5'' Dual Chip 6GB RAM Câmera Tripla + Selfie 32MP - Cloud Lavender",
+    title: "Smartphone Samsung Galaxy S20 Fe 128GB - Cloud Lavender",
     description:
       "O Smartphone Samsung Galaxy S20 Fe é completo e perfeito para você que não abre mão de ter um item tecnológico sempre por perto.",
     price: 2499.99,
@@ -66,8 +63,7 @@ export const kenzieShopProducts = [
   },
   {
     id: 49,
-    title:
-      'iPhone 12 Pro Max Apple (128GB) Dourado tela 6,7" Câmera tripla 12MP iOS',
+    title: "iPhone 12 Pro Max Apple (128GB) Dourado",
     description:
       "iPhone 12 Pro Max. Tela Super Retina XDR maior com 6,7 polegadas.",
     price: 8999.99,

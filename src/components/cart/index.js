@@ -1,14 +1,20 @@
+import { Grid, makeStyles } from "@material-ui/core";
 import { useSelector } from "react-redux";
-import Card from "../card";
+import Cards from "../card";
+const useStyle = makeStyles({
+  container: {
+    width: 300,
+  },
+});
 const Cart = () => {
+  const classes = useStyle();
   const cart = useSelector((store) => store.cart);
-  console.log(cart);
   return (
-    <div>
+    <Grid container justifyContent="center" className={classes.container}>
       {cart.map((product) => (
-        <Card key={product.id} product={product} inCart={true} />
+        <Cards key={product.id} product={product} inCart={true} />
       ))}
-    </div>
+    </Grid>
   );
 };
 export default Cart;

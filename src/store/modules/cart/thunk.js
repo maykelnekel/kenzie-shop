@@ -1,3 +1,4 @@
+import { toast } from "react-toastify";
 import { addCart, dellCart } from "./actions";
 
 export const addCartThunk = (product) => (dispatch) => {
@@ -5,12 +6,13 @@ export const addCartThunk = (product) => (dispatch) => {
   list.push(product);
   localStorage.setItem("cart", JSON.stringify(list));
   dispatch(addCart(product));
+  toast.success("Produto adicionado ao carrinho!");
 };
 
 export const dellCartThunk = (id) => (dispatch, getStore) => {
   const { cart } = getStore();
-  console.log("dell thunk", cart);
   const list = cart.filter((product) => product.id !== id);
   localStorage.setItem("cart", JSON.stringify(list));
   dispatch(dellCart(list));
+  toast.warn("Produto retirado do carrinho!");
 };
