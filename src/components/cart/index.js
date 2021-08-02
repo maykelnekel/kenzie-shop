@@ -11,8 +11,8 @@ const Cart = () => {
   const cart = useSelector((store) => store.cart);
   return (
     <Grid container justifyContent="center" className={classes.container}>
-      {cart.map((product) => (
-        <Cards key={product.id} product={product} inCart={true} />
+      {cart.map((product, index) => (
+        <Cards key={index} product={product} inCart={true} />
       ))}
     </Grid>
   );

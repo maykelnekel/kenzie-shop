@@ -1,4 +1,4 @@
-import { Grid, IconButton, makeStyles } from "@material-ui/core";
+import { Grid, IconButton } from "@material-ui/core";
 
 const ButtonComponent = ({ icon, color = "primary", onClick, type = "" }) => {
   return (

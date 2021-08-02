@@ -14,7 +14,6 @@ const useStyles = makeStyles({
     width: 300,
     margin: 16,
     display: "flex",
-    // flexDirection: "column",
     justifyContent: "center",
   },
   p: {
@@ -38,7 +37,7 @@ const Cards = ({ product, inCart = false }) => {
           {title}
         </Typography>
         <img style={{ width: "80px" }} src={image} alt={title}></img>
-        <Typography color="text.disabled" className={classes.p} component="p">
+        <Typography className={classes.p} component="p">
           {description}
         </Typography>
         <Typography className={classes.h6} variant="h6">

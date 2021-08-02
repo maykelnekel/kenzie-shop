@@ -20,7 +20,6 @@ const drawerWidth = 300;
 const useStyles = makeStyles((theme) => ({
   openCart: {
     maxWidth: drawerWidth,
-    backgroundColor: "#a1a2a",
   },
   appBar: {
     transition: theme.transitions.create(["margin", "width"], {
@@ -61,7 +60,6 @@ function Home() {
   const handleDrawerClose = () => {
     setOpen(false);
   };
-  console.log(open);
   return (
     <Grid>
       <AppBar position="fixed">

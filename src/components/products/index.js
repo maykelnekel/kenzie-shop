@@ -14,7 +14,7 @@ const Products = () => {
   return (
     <Grid className={classes.container} container justifyContent="center">
       {products.map((product, index) => (
-        <Cards key={product.id} product={product} />
+        <Cards key={index} product={product} />
       ))}
     </Grid>
   );
