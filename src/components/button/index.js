@@ -4,7 +4,6 @@ const ButtonComponent = ({ icon, color = "primary", onClick, type = "" }) => {
   return (
     <Grid container direction="row" justifyContent="flex-end">
       <IconButton
-        // className={classes.fab}
         size="medium"
         color={color}
         type={type}
