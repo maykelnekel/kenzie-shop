@@ -1,9 +1,9 @@
  # Kenzie Shop
 _A responsive project of a marketplace. With MaterialUI and Redux/ReduxThunk_
 
-![GitHub repo size](https://img.shields.io/github/repo-size/maykelnekel/hamburgueria-kenzie?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/maykelnekel/hamburgueria-kenzie?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/maykelnekel/hamburgueria-kenzie?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/maykelnekel/kenzie-shop?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/maykelnekel/kenzie-shop?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/maykelnekel/kenzie-shop?style=for-the-badge)
 
 > Developed on Mobile First
 # 
